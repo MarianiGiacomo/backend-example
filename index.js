@@ -4,7 +4,7 @@ const axios = require('axios');
 
 require('dotenv').config()
 const app = express();
-const port = process.env.BE_PORT;
+const port = process.env.PORT;
 const service = `${process.env.SERVICE_URL}:${process.env.SERVICE_PORT}`;
 
 app.use(cors())
